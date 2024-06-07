@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+   html,body{
+     height: 100%;
+     width: 100%;
+  } 
+  body{
+     background-color: #000000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  h1{
+    color: white;
+  }
+ #container{
+     height: 500px;
+     width: 430px;
+   border-radius: 18px;
+   box-shadow: 20px 30px 10px 8px #eef1355d;
+   position: relative;
+   overflow: hidden;
+   border: 6px solid rgb(49, 0, 0);
+ }
+ img{
+    width: 430px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+ }
+ i{
+     color: white;
+     font-size: 100px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%) scale(0);
+     opacity:0.8;
+     transition: all ease 0.4s;
+ }
